@@ -1,0 +1,78 @@
+@import url('./var.css');
+
+header {
+  align-items: center;
+}
+
+header img, header nav ul {
+  display: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#menu-icon {
+  color: var(--main-dark-color);
+  display: block;
+  font-size: 2.5rem;
+  height: 35px;
+  margin: 7vw;
+  width: 35px;
+}
+
+.mobile-menu img, .mobile-menu nav ul {
+  display: block;
+}
+
+.mobile-menu #menu-icon {
+  position: absolute;
+  font-size: 2.5rem;
+  left: 5vw;
+  top: 5vw;
+}
+
+.mobile-menu img {
+  width: 50vw;
+  height: 150px;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.mobile-menu::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: 0.4; 
+  z-index: -1;
+  background: url('../content/headline-bg.svg');
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+.mobile-menu nav ul li {
+  margin-bottom: 2rem;
+}
+.mobile-menu nav ul li a {
+  text-decoration: none;
+  color: var(--main-dark-color);
+}
+
+.mobile-menu nav ul li a:hover {
+  color: var(--main-second-color);
+}

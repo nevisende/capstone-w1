@@ -1,0 +1,25 @@
+.header-line-container {
+  padding: 5vw;
+  background-image: url('../content/headline-bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title {
+background-image: url('../content/red.jpg');
+background-size: cover;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-weight: 900;
+}
+
+.header-line-container h2 {
+  font-weight: normal;
+}
+
+.header-line-container span {
+  white-space: break-all;
+  margin-bottom: 5vw;
+}
+
