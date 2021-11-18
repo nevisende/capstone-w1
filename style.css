@@ -3,6 +3,7 @@
 @import url('./style/header.css');
 @import url('./style/headline.css');
 @import url('./style/schedule.css');
+@import url('./style/logos.css');
 
 html {
   background-color: #f7f7f7;

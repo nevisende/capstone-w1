@@ -4,7 +4,8 @@ header {
   align-items: center;
 }
 
-header img, header nav ul {
+header img,
+header nav ul {
   display: none;
 }
 
@@ -22,7 +23,8 @@ header nav {
   width: 35px;
 }
 
-.mobile-menu img, .mobile-menu nav ul {
+.mobile-menu img,
+.mobile-menu nav ul {
   display: block;
 }
 
@@ -47,18 +49,17 @@ header nav {
   top: 0;
   width: 100vw;
   height: 100vh;
-  position: relative;
   z-index: 1;
 }
 
 .mobile-menu::before {
   content: "";
   position: absolute;
-  top: 0; 
+  top: 0;
   left: 0;
-  width: 100%; 
-  height: 100%;  
-  opacity: 0.4; 
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
   z-index: -1;
   background: url('../content/headline-bg.svg');
   background-size: contain;
@@ -68,6 +69,7 @@ header nav {
 .mobile-menu nav ul li {
   margin-bottom: 2rem;
 }
+
 .mobile-menu nav ul li a {
   text-decoration: none;
   color: var(--main-dark-color);
