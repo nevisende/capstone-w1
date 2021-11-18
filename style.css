@@ -271,7 +271,7 @@ span {
 }
 
 .gap-1 {
-  gap: 3vw;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
