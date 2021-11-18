@@ -6,6 +6,7 @@
 @import url('./style/invitees.css');
 @import url('./style/partner.css');
 @import url('./style/logos.css');
+@import url('./style/footer.css');
 
 html {
   background-color: #f7f7f7;
