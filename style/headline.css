@@ -22,3 +22,34 @@
 .header-line-container span {
   margin-bottom: 5vw;
 }
+
+/* About page */
+
+.about-section-container {
+  background-image: url('../content/headline-bg.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.about-section-container a {
+  margin-top: -1.5rem;
+}
+
+.logo-history h2 {
+  position: relative;
+}
+
+.logo-history h2::after {
+  content: '';
+  width: 2rem;
+  height: 0.1rem;
+  background-color: var(--main-second-color);
+  bottom: -2rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
