@@ -17,7 +17,7 @@
   content: '';
   width: 3.5rem;
   height: 0.1rem;
-  background-color: tomato;
+  background-color: var(--main-second-color);
   bottom: -1rem;
   position: absolute;
   margin-left: auto;
