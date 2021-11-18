@@ -53,3 +53,24 @@
   right: 0;
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .header-line-container,
+  .about-section-container {
+    height: calc(100vh - 5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header-line-container p {
+    z-index: 2;
+    background-color: #f7f7f7;
+  }
+
+  #span-1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+}

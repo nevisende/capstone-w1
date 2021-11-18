@@ -79,3 +79,43 @@ header nav {
 .mobile-menu nav ul li a:hover {
   color: var(--main-second-color);
 }
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    border-bottom: solid #d3d3d3 0.1rem;
+    height: 5rem;
+    padding: 0 5vw 0 5vw;
+  }
+
+  header img {
+    display: flex;
+    width: 20vw;
+  }
+
+  header nav ul {
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+  }
+
+  header nav ul li {
+    padding: 1rem;
+  }
+
+  header nav ul li a:hover {
+    color: var(--main-second-color);
+  }
+
+  header nav ul li:nth-of-type(6) {
+    color: var(--main-second-color);
+    padding: 1rem;
+    border: solid;
+  }
+
+  #menu-icon {
+    display: none;
+  }
+}

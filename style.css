@@ -55,6 +55,10 @@ li {
   color: var(--main-color);
 }
 
+.main-second-color {
+  color: var(--main-second-color);
+}
+
 .main-dark-color {
   color: var(--main-dark-color);
 }
