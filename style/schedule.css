@@ -1,0 +1,51 @@
+.main-schedule-container {
+  background-color: #383c46;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%2322242e' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+  padding: 15vw 0 15vw 0;
+}
+
+.main-schedule-container img {
+  width: 10vw;
+  height: 10vw;
+}
+
+.main-schedule-title {
+  position: relative;
+}
+
+.main-schedule-title::after {
+  content: '';
+  width: 3.5rem;
+  height: 0.1rem;
+  background-color: tomato;
+  bottom: -1rem;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#sharing-txt {
+  margin-left: 1.5rem;
+}
+
+#forum-txt {
+  margin-left: 2.5rem;
+}
+
+#ignite-p {
+  margin-left: 2.5rem;
+}
+
+.schedule-desktop-button {
+  display: none;
+}
+
+.schedule-button {
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1rem;
+  background-color: var(--main-second-color);
+}
