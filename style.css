@@ -4,6 +4,7 @@
 @import url('./style/headline.css');
 @import url('./style/schedule.css');
 @import url('./style/invitees.css');
+@import url('./style/partner.css');
 @import url('./style/logos.css');
 
 html {
@@ -84,6 +85,30 @@ li {
   padding: 2.5vw;
 }
 
+.p-t-1 {
+  padding-top: 1rem;
+}
+
+.p-b-1 {
+  padding-bottom: 1rem;
+}
+
+.p-t-2 {
+  padding-top: 2rem;
+}
+
+.p-b-2 {
+  padding-bottom: 2rem;
+}
+
+.p-t-3 {
+  padding-top: 2rem;
+}
+
+.p-b-3 {
+  padding-bottom: 2rem;
+}
+
 .mg-1 {
   margin: 1vw;
 }
@@ -102,6 +127,10 @@ li {
 
 .mg-b-1 {
   margin-bottom: 1vw;
+}
+
+.mg-auto {
+  margin: 0 auto;
 }
 
 .w-100 {
@@ -152,6 +181,10 @@ span {
 @media screen and (max-width: 768px) {
   .m-dp-block {
     display: block;
+  }
+
+  .m-dp-inline-block {
+    display: inline-block;
   }
 
   .m-flex-row {
