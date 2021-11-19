@@ -39,8 +39,23 @@
   margin-left: 2.5rem;
 }
 
+.main-schedule-container ul li {
+  background-color: rgba(229, 229, 229, 0.1);
+  padding: 1rem 0.7rem 1rem 0.7rem;
+  margin-right: 5vw;
+  transition: border 0.3s ease;
+}
+
+.main-schedule-container ul li:hover {
+  border: solid #fff 0.3rem;
+}
+
 .schedule-desktop-button {
   display: none;
+}
+
+.schedule-desktop-button:hover {
+  scale: 1.1;
 }
 
 .schedule-button {
@@ -49,6 +64,10 @@
   padding: 1rem 0 1rem 0;
   width: 77vw;
   background-color: var(--main-second-color);
+}
+
+.schedule-button:hover {
+  scale: 1.1;
 }
 
 @media screen and (min-width: 768px) {
@@ -74,12 +93,9 @@
     background-color: rgba(229, 229, 229, 0.1);
     box-sizing: content-box;
     padding: 2rem 0.7rem 2rem 0.7rem;
+    margin-right: 0;
     width: 17vw;
     transition: border 0.3s ease;
-  }
-
-  .main-schedule-container ul li:hover {
-    border: solid #fff 0.3rem;
   }
 
   .main-schedule-container ul li img {
