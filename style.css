@@ -274,6 +274,10 @@ span {
   gap: 1rem;
 }
 
+.animation-bg {
+  animation: shrink 5s infinite alternate;
+}
+
 @media screen and (max-width: 768px) {
   .m-dp-block {
     display: block;
@@ -299,5 +303,15 @@ span {
 @media screen and (min-width: 768px) {
   .d-w-35 {
     width: 35vw;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    background-size: 110% 110%;
+  }
+
+  100% {
+    background-size: 100% 100%;
   }
 }
