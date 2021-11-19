@@ -23,7 +23,7 @@
 
 .invitee {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3rem;
   gap: 4vw;
 }
 
@@ -63,7 +63,7 @@
     width: 100vw;
     display: inline-block;
     flex-direction: column;
-    padding: 3rem 15vw 3rem 15vw;
+    padding: 3rem 13vw 3rem 13vw;
   }
 
   .invitees-title {
@@ -74,13 +74,13 @@
     display: inline-flex;
     width: 30vw;
     gap: 0;
-    margin: 2.5rem 0.5rem;
+    margin: 2.5rem 1rem;
   }
 
   .invitee img {
     top: 0;
-    width: 70%;
-    height: 70%;
+    width: 10vw;
+    height: 12vw;
   }
 
   .invitee-pp-container {
@@ -96,7 +96,7 @@
   }
 
   .desc-invitee {
-    margin-left: -1rem;
+    margin-left: 1rem;
   }
 
   .desc-invitee h3 {

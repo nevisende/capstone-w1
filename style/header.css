@@ -21,6 +21,7 @@ header nav {
   height: 35px;
   margin: 7vw;
   width: 35px;
+  z-index: 2;
 }
 
 .mobile-menu img,
@@ -38,7 +39,7 @@ header nav {
 .mobile-menu img {
   width: 50vw;
   height: 150px;
-  border: solid;
+  border: solid var(--main-second-color);
 }
 
 .mobile-menu {
