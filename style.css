@@ -295,3 +295,9 @@ span {
     margin: 1vw;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .d-w-35 {
+    width: 35vw;
+  }
+}

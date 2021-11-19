@@ -57,10 +57,17 @@
 @media screen and (min-width: 768px) {
   .header-line-container,
   .about-section-container {
-    height: calc(100vh - 5rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .header-line-container {
+    height: calc(100vh - 5rem);
+  }
+
+  .about-section-container {
+    padding: 5rem 2.5rem !important;
   }
 
   .header-line-container p {
